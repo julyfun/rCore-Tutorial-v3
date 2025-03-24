@@ -1,3 +1,7 @@
+## Utils
+
+- close QEMU: CTRL-a followed by key x
+
 # rCore-Tutorial-v3
 rCore-Tutorial version 3.6. See the [Documentation in Chinese](https://rcore-os.github.io/rCore-Tutorial-Book-v3/).
 
