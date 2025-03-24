@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":[["CLINT",""],["CLINT_MTIME",""],["CLINT_MTIMECMP",""],["CLOCK_FREQ",""],["MMIO",""],["VIRTGPU_XRES",""],["VIRTGPU_YRES",""],["VIRT_PLIC",""],["VIRT_UART",""]],"fn":[["device_init",""],["irq_handler",""],["timervec",""]],"type":[["BlockDeviceImpl",""],["CharDeviceImpl",""]]};
