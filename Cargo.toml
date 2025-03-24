@@ -1,0 +1,6 @@
+[workspace]
+members = ["os"]
+
+# This resolves potential conflicts between different packages
+# that might have different settings for the same dependency
+resolver = "2"

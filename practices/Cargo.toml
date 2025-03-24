@@ -1,0 +1,18 @@
+[package]
+name = "practices"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+
+[workspace]
+
+# add target with src/main2.rs
+[[bin]]
+name = "ch1-6_1"
+path = "src/ch1-6_1.rs"
+
+[[bin]]
+name = "ch1-6_2"
+path = "src/ch1-6_2.rs"
