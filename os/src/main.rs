@@ -1,5 +1,6 @@
 #![no_std]
 #![no_main]
+#![feature(panic_info_message)]
 mod console;
 mod lang_items;
 mod sbi;
@@ -10,8 +11,8 @@ global_asm!(include_str!("entry.asm"));
 #[unsafe(no_mangle)] // 避免名字进行混淆
 pub fn rust_main() -> ! {
     clear_bss();
-    println!("1.2");
-    loop {}
+    println!("v1.4");
+    panic!("It should not reach here!");
 }
 
 fn clear_bss() {
