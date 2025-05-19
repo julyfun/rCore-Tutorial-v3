@@ -25,7 +25,6 @@ $(KERNEL_BIN): $(KERNEL_ELF)
 	rust-objcopy --strip-all $(KERNEL_ELF) -O binary $(KERNEL_BIN)
 
 $(KERNEL_ELF): FORCE
-	cargo build --release
-
+	LOG=$(LOG) cargo build --release
 clean:
 	cargo clean
