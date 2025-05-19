@@ -5,7 +5,6 @@ edition = "2024"
 
 [dependencies]
 
-
 [workspace]
 
 # add target with src/main2.rs
