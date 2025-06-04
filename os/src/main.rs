@@ -11,6 +11,8 @@ global_asm!(include_str!("entry.asm"));
 
 #[unsafe(no_mangle)] // 避免名字进行混淆
 pub fn rust_main() -> ! {
+    // 之前还会建立栈空间.
+
     clear_bss();
 
     crate::logging::init(); // 不能在清除 BSS 之前调用

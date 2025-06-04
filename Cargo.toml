@@ -1,5 +1,5 @@
 [workspace]
-members = ["os", "practices"]
+members = ["os", "practices", "user"]
 
 # This resolves potential conflicts between different packages
 # that might have different settings for the same dependency
